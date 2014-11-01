@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle windows-carriage-return-remover'
+      'command': 'windows-carriage-return-remover:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'windows-carriage-return-remover'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'windows-carriage-return-remover:toggle'
+        }
+      ]
+    ]
+  }
+]
