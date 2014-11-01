@@ -1,14 +1,15 @@
 {
   "name": "windows-carriage-return-remover",
   "main": "./lib/windows-carriage-return-remover",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Remove annoying windows carriage returns",
-  "activationEvents": ["windows-carriage-return:remove"],
+  "activationEvents": [
+    "windows-carriage-return:remove"
+  ],
   "repository": "https://github.com/acrogenesis/windows-carriage-return-remover",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
