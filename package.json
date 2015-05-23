@@ -1,10 +1,12 @@
 {
   "name": "windows-carriage-return-remover",
   "main": "./lib/windows-carriage-return-remover",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Remove annoying windows carriage returns",
   "activationCommands": {
-    "atom-text-editor": ["windows-carriage-return:remove"]
+    "atom-text-editor": [
+      "windows-carriage-return:remove"
+    ]
   },
   "repository": "https://github.com/acrogenesis/windows-carriage-return-remover",
   "license": "MIT",
