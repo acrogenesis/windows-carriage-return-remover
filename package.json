@@ -1,7 +1,7 @@
 {
   "name": "windows-carriage-return-remover",
   "main": "./lib/windows-carriage-return-remover",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Remove annoying windows carriage returns",
   "activationCommands": [
     "windows-carriage-return:remove"
